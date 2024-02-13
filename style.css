@@ -1,0 +1,176 @@
+html {
+    background: #000;
+}
+
+body {
+  color: #fff;
+  margin: 2em auto;
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+}
+
+button,
+p {
+  font-family: Tahoma;
+}
+
+/* Button 1 */
+.ButtonBox1 {
+  width: 30em;
+  height: 30em;
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #fff;
+  border-radius: 2.5em;
+}
+
+.ButtonBox1 > button {
+  background: #fff;
+  color: #000;
+  border-radius: 5em;
+  padding: 0.7em 2em;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+/* Button 2 */
+.ButtonBox2 {
+  width: 30em;
+  height: 30em;
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 2.5em;
+}
+
+.ButtonBox2 > button {
+  background: #d6ff4f;
+  color: #000;
+  border-radius: 5em;
+  padding: 0.7em 2em;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+#result {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.ButtonBox3 {
+  width: 30em;
+  height: 30em;
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 2.5em;
+}
+
+.ButtonBox3 > button {
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5em;
+    padding: 0.7em 2em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.ButtonBox3 > button:hover {
+    color: #ff5601;
+    background: #5eff00;
+   
+    height: 10em;
+    border-radius: 100%;
+}
+
+/* BUtton 4 */
+.ButtonBox4 {
+    width: 30em;
+  height: 30em;
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 2.5em;
+}
+
+
+.ButtonBox4 > button {
+    background: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5em;
+    padding: 0.7em 2em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.ButtonBox4 > button:hover {
+    animation: rave 0.5s ease-in infinite;
+}
+
+@keyframes rave {
+        0%   {background-color: red;
+        height: 1em;}
+        10%  {background-color: rgb(242, 106, 10);
+              height: 2em;}
+        20% {background-color: rgb(255, 187, 0);
+            height: 4em;}
+        30% {background-color: rgb(162, 255, 0);
+            height: 6em;}
+        40% {background-color: rgb(162, 255, 0);
+            height: 8em;}
+        50%  {background-color: rgb(7, 186, 7);
+              height: 10em;}
+        60% {background-color: rgb(7, 186, 135);
+            height: 8em;}
+        70% {background-color: rgb(7, 162, 186);
+            height: 6em;}
+        80% {background-color: rgb(7, 67, 186);
+            height: 4em;}
+        90% {background-color: rgb(102, 7, 186);
+            height: 2em;}
+        100% {background-color: rgb(221, 0, 255);
+            height: 1em;}
+}
+
+
+
+.ButtonBox5 {
+  width: 30em;
+  height: 30em;
+  margin: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid #fff;
+  border-radius: 2.5em;
+  background-color: #00000000;
+}
+
+
+.ButtonBox5 > button {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    border-radius: 5em;
+    padding: 0.7em 2em;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+ html:fullscreen{
+    background-color: Red;
+}
